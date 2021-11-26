@@ -1,0 +1,106 @@
+body {
+    background-color: #333754;
+}
+
+app-bar .navbar {
+    background-color: #3f4263;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    box-shadow: 0px 1px 5px 1px #00000073;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-brand span,
+footer span,
+header span {
+    color: #03a9f4;
+}
+
+app-bar .navbar .navbar-nav .nav-link {
+    padding: .5rem 1rem;
+    border-left: 2px solid #8f91a14a;
+}
+
+global-cases {
+    text-align: center;
+    color: white;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: #3f4263;
+    box-shadow: 3px 4px 3px 1px #282a43;
+    color: white;
+}
+
+global-cases .card {
+    text-align: center;
+}
+
+.lead {
+    font-size: 1rem;
+}
+
+.display-5 {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 15px 1rem;
+}
+
+all-country-table .table-responsive {
+    height: 400px;
+}
+
+all-country-table .table-responsive thead th {
+    position: sticky;
+    top: 0;
+}
+
+
+/* Scrollbar Width */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+
+/* Scrollbar Track */
+
+::-webkit-scrollbar-track {
+    background: #333754;
+}
+
+
+/* Scrollbar Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #616694;
+}
+
+
+/* Scrollbar Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+app-footer {
+    display: block;
+    padding: 2rem 1rem;
+}
